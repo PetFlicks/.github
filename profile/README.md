@@ -167,6 +167,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
  
+ * We use 
+ *[dotenv-java](https://github.com/cdimascio/dotenv-java)
+ so you will need a
+ ```sh
+ .env
+ ```
+ in the root directory(ours lives in the PetFlicksj8 folder) with the following line:
+ 
+ ```sh
+ ENV_AWS_S3_BUCKET='your aws bucket name'
+```
+
 
 
 * We have implemened a file upload and download using AWS S3 and kept our secrets in secrets.properties in:
