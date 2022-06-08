@@ -108,6 +108,7 @@ An app similar to TikTok, but focused on pet owners
 ## About The Project
 
 Screenshots coming soon
+
 [![Product Name Screen Shot][product-screenshot]](https://PetFlicks.com)
 
 
