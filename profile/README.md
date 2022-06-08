@@ -168,12 +168,16 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
  
  * We use 
- *[dotenv-java](https://github.com/cdimascio/dotenv-java)
+  [dotenv-java](https://github.com/cdimascio/dotenv-java)
  so you will need a
  ```sh
  .env
  ```
- in the root directory(ours lives in the PetFlicksj8 folder) with the following line:
+ in the root directory(ours lives in the PetFlicksj8 folder) and add it to the 
+ ```sh
+ .gitignore
+ ```
+ with the following line:
  
  ```sh
  ENV_AWS_S3_BUCKET='your aws bucket name'
@@ -196,8 +200,11 @@ cloud.aws.credentials.access-key=' aws access created in IAM'
 cloud.aws.credentials.secret-key=' aws secret created in IAM'
    ```
    
-* We added secrets.properties to the .gitignore file for security, you will need to create and enter the data required
-   as above.
+* We added secrets.properties to the 
+```sh
+.gitignore 
+```
+file for security, you will need to create and enter the data required as above.
    
 * with the spring settings application.properties:
  ```sh
