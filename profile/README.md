@@ -362,6 +362,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [cwlinkedin-url]: https://www.linkedin.com/in/chriswwilder/
 [cmlinkedin-url]: https://www.linkedin.com/in/delmundo-carlo/
 [rdlinkedin-url]: https://www.linkedin.com/in/richard-duenas-69600a63/
-[product-screenshot]: 
-[product-screenshot1]: 
+[product-screenshot]: https://github.com/PetFlicks/Petflicksj8/blob/cw/src/main/resources/assets/screen1.png
+[product-screenshot1]: https://github.com/PetFlicks/Petflicksj8/blob/cw/src/main/resources/assets/screen2.png
 
