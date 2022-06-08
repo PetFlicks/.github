@@ -1,4 +1,5 @@
-
+#### the Java 8 with Angular 13 project has been the main focus so below is duplicated in the PetFlicksj8
+### there will be additions to the Python Django project to come
 
 <!--
 
