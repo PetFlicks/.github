@@ -34,8 +34,11 @@
 
 <!-- [![MIT License][license-shield]][license-url] -->
   
+   
 [![Chris Wilder][linkedin-shield]][cwlinkedin-url]
+   
 [![Richard Duenas][linkedin-shield]][rdlinkedin-url]
+   
 [![Carlo Del-Mundo][linkedin-shield]][cmlinkedin-url]
 
 
@@ -100,11 +103,9 @@ An app similar to TikTok, but focuesed on pet owners
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Original App
-
+Screenshots coming soon
 [![Product Name Screen Shot][product-screenshot]](https://PetFlicks.com)
 
-New Frontend Design
 
 [![Product Name Screen Shot][product-screenshot1]](https://PetFlicks.com)
 
@@ -289,7 +290,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Acknowledgments
 
 * [Chris Wilder](https://github.com/wilderchris)
-* []()
+* [Richard Duenas](https://github.com/ricky23i)
+* [Carlo Del-Mundo](https://github.com/Carlo-Del-Mundo)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -298,7 +300,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/wilderchris/wilderchris?style=for-the-badge
-[contributors-url]: https://github.com/211115-jwa/projecttwo-alchemy-back-end
+[contributors-url]: https://github.com/PetFlicks/
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
 [forks-url]: https://github.com/github_username/repo_name/network/members
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
