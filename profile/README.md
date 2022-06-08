@@ -34,12 +34,16 @@
 
 <!-- [![MIT License][license-shield]][license-url] -->
   
+     <div id="badges">
+  <a href="https://www.linkedin.com/in/chriswwilder/">
+    <img src="https://img.shields.io/badge/Chris Wilder-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>  <a href="https://www.linkedin.com/in/richard-duenas-69600a63/">
+    <img src="https://img.shields.io/badge/Richard Duenas-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>  <a href="https://www.linkedin.com/in/delmundo-carlo/">
+    <img src="https://img.shields.io/badge/Carlo DelMundo-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
    
-[![Chris Wilder][linkedin-shield]][cwlinkedin-url]
-   
-[![Richard Duenas][linkedin-shield]][rdlinkedin-url]
-   
-[![Carlo Del-Mundo][linkedin-shield]][cmlinkedin-url]
 
 
 </div>
