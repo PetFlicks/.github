@@ -140,7 +140,7 @@ Screenshots coming soon
 
  
   
-Soon Deployed on an EC2 instance using Jenkins and s3 Buckets
+Soon Deployed with an EC2 instance using Jenkins and s3 Buckets
 
 
 </div>
