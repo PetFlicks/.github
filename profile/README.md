@@ -52,7 +52,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/PetFlicks">
-    <img src="https://github.com/PetFlicks/Petflicksj8/tree/cw/src/main/resources/images/PFlogo.png" alt="PetFlicks" width="80" height="80">
+    <img src="https://github.com/PetFlicks/Petflicksj8/blob/cw/src/main/resources/assets/PFlogo.png" alt="PetFlicksDemoLogo" width="80" height="80">
   </a>
 
 <h3 align="center">PetFlicks</h3>
