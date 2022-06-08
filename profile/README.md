@@ -311,6 +311,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [cwlinkedin-url]: https://www.linkedin.com/in/chriswwilder/
 [cmlinkedin-url]: https://www.linkedin.com/in/delmundo-carlo/
 [rdlinkedin-url]: https://www.linkedin.com/in/richard-duenas-69600a63/
-[product-screenshot]: https://github.com/wilderchris/SpoilerRoom/blob/main/src/main/resources/images/screenshot.png
-[product-screenshot1]: https://github.com/wilderchris/SpoilerRoom/blob/main/src/main/resources/images/screenshot1.png
+[product-screenshot]: 
+[product-screenshot1]: 
 
