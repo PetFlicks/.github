@@ -34,7 +34,7 @@
 
 <!-- [![MIT License][license-shield]][license-url] -->
   
-     <div id="badges">
+  <div id="badges">
   <a href="https://www.linkedin.com/in/chriswwilder/">
     <img src="https://img.shields.io/badge/Chris Wilder-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>  <a href="https://www.linkedin.com/in/richard-duenas-69600a63/">
@@ -58,7 +58,7 @@
 <h3 align="center">PetFlicks</h3>
 
   <p align="center">
-An app similar to TikTok, but focuesed on pet owners
+An app similar to TikTok, but focused on pet owners
         
 <br />
     <a href="https://github.com/PetFlicks/docs"><strong>Explore the docs »</strong></a>
@@ -166,27 +166,54 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
  
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ``` 
+
+
+* We have implemened a file upload and download using AWS S3 and kept our secrets in secrets.properties in:
+ ```sh
+  /src/main/resources/
+   ```
+* we used the spring cloud dependency with the data in secrets.properties file is:
+
+```sh
+spring.datasource.username='db username'
+spring.datasource.password='db password'
+spring.datasource.url=' this url depends on local or RDS usage '
+
+cloud.aws.credentials.access-key=' aws access created in IAM'
+cloud.aws.credentials.secret-key=' aws secret created in IAM'
+   ```
+   
+* We added secrets.properties to the .gitignore file for security, you will need to create and enter the data required
+   as above.
+   
+* with the spring settings application.properties:
+ ```sh
+spring.config.import=optional:secrets.properties
+spring.datasource.driverClassName= 'db driver'
+spring.jpa.properties.hibernate.dialect=' we used hibernate postgres dialect'
+##### AWS S3 ######
+cloud.aws.region.static=' your aws region for S3'
+cloud.aws.stack.auto=' we set to false'
+spring.servlet.multipart.max-file-size='we set to 300MB'
+spring.servlet.multipart.max-request-size='we set to 300MB'
+```
+
 
 ### Installation
 
-<!-- 1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/PetFlicks/PetFLicksj8.git
    ```
-3. Install NPM packages
+<!-- 2. Install NPM packages
    ```sh
    npm install
-   ```
-4. Enter your API in `config.js`
+   ```  -->
+<!-- 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
-   ``` -->
+   ``` --> 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -203,33 +230,27 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## External API
-
-The Team utilized TMDB API for Movies.
-using the free service
-
-https://developers.themoviedb.org/3/getting-started/introduction
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Endpoints
 
 USER
 
-![POST](https://img.shields.io/static/v1.svg?label=register&message=http://localhost:8080/users/&color=blue )
+![POST](https://img.shields.io/static/v1.svg?label=register&message=http://localhost:8081/users/&color=blue )
 
-![GET](https://img.shields.io/static/v1.svg?label=getUserById&message=http://localhost:8080/users/{user_id}&color=blue )
+![GET](https://img.shields.io/static/v1.svg?label=getUserById&message=http://localhost:8081/users/{user_id}&color=blue )
 
-![GET](https://img.shields.io/static/v1.svg?label=CheckLogin&message=http://localhost:8080/user/{userId}/auth&color=blue )
+![GET](https://img.shields.io/static/v1.svg?label=CheckLogin&message=http://localhost:8081/user/{userId}/auth&color=blue )
 
-![PUT](https://img.shields.io/static/v1.svg?label=UpdateUser&message=http://localhost:8080/users/{user_id}&color=blue )
+![PUT](https://img.shields.io/static/v1.svg?label=UpdateUser&message=http://localhost:8081/users/{user_id}&color=blue )
+
 ---
-TMDB Api
 
-![GET](https://img.shields.io/static/v1.svg?label=Upcoming&message=http://localhost:8080/api/&color=blue )
+File Upload
 
-![GET](https://img.shields.io/static/v1.svg?label=Query&message=http://localhost:8080/api/{query_variable}&color=blue )
+![POST](https://img.shields.io/static/v1.svg?label=register&message=http://localhost:8081/api/upload/&color=blue )
+
 
 ---
 
@@ -246,7 +267,8 @@ TMDB Api
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+--not implemented yet--
+See the [open issues](https://github.com/PetFlicks/Petflicksj8/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
