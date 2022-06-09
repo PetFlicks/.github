@@ -112,14 +112,15 @@ An app similar to TikTok, but focused on pet owners
 
 Screenshots working for upload
 ---
+Upload page
 [![Product Name Screen Shot][product-screenshot]](https://PetFlicks.com)
 
 ---
-
+upload complete with progress bar
 [![Product Name Screen Shot][product-screenshot1]](https://PetFlicks.com)
 
 ---
-
+Feed page videos play on mouseover and pause mouseout
 [![Product Name Screen Shot][product-screenshot2]](https://PetFlicks.com)
 
 ---
